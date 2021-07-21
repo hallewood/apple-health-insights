@@ -1,0 +1,39 @@
+{
+    "name": "hallewood/apple-health-insights",
+    "description": "A command-line interface to parse and inspect apple health export data.",
+    "keywords": [
+        "apple", "health", "export", "parsing", "analyzing", "gpx"
+    ],
+    "homepage": "https://github.com/hallewood/apple-health-insights",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dennis Prudlo",
+            "email": "mail@dennisprudlo.com",
+            "homepage": "https://dennisprudlo.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/hallewood/apple-health-insights/issues"
+    },
+    "require": {
+        "php": ">=8.0",
+        "symfony/console": "^5.3",
+        "nunomaduro/collision": "^5.5",
+        "symfony/yaml": "^5.3",
+        "illuminate/collections": "^8.51"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.3"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Hallewood\\AppleHealthInsights\\": "src"
+        },
+        "files": [
+            "src/MyLibrary/functions.php"
+        ]
+    }
+}
